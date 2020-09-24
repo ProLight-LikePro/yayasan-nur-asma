@@ -3547,6 +3547,10 @@ hr {
     font-size: 50px;
     line-height: 1.2;
   }
+
+  .slider-area {
+    background-image: none;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3555,6 +3559,10 @@ hr {
     font-size: 35px;
     line-height: 1.2;
   }
+
+  .slider-area {
+    background-image: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3562,6 +3570,10 @@ hr {
   .slider-area .hero__caption h1 {
     font-size: 35px;
     line-height: 1.2;
+  }
+
+  .slider-area {
+    background-image: none;
   }
 }
 
@@ -6430,6 +6442,8 @@ hr {
   .comments-area .comment-list .single-comment .comment {
     font-size: 10px;
   }
+
+  
 }
 
 /* line 1508, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_blog_page.scss */
