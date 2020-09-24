@@ -2482,8 +2482,8 @@ hr {
 
 /* line 627, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .preloader .preloader-circle {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: relative;
   border-style: solid;
   border-width: 1px;
@@ -2529,7 +2529,7 @@ hr {
 
 /* line 670, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .preloader .preloader-img img {
-  max-width: 55px;
+  max-width: 105px;
 }
 
 /* line 673, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
@@ -3908,22 +3908,29 @@ hr {
 }
 
 /* line 26, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-.service-area .single-cat .cat-icon span {
+.service-area .single-cat .cat-icon img {
   margin-bottom: 50px;
-  width: 90px;
-  height: 90px;
-  background: #136D11;
   line-height: 90px;
   text-align: center;
-  border-radius: 50%;
   display: inline-block;
   font-size: 40px;
-  color: #fff;
 }
 
 /* line 41, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-.service-area .single-cat .cat-cap h5 > a {
+.service-area .single-cat .cat-cap h5 {
   font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  display: block;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  font-family: "Muli", sans-serif;
+}
+
+.service-area .single-cat .cat-cap h4 {
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 21px;
   display: block;
@@ -3936,15 +3943,23 @@ hr {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 41, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-  .service-area .single-cat .cat-cap h5 > a {
+  .service-area .single-cat .cat-cap h5 {
     font-size: 26px;
+  }
+
+  .service-area .single-cat .cat-cap h4 {
+    font-size: 16px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 41, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-  .service-area .single-cat .cat-cap h5 > a {
+  .service-area .single-cat .cat-cap h5 {
     font-size: 26px;
+  }
+
+  .service-area .single-cat .cat-cap h4 {
+    font-size: 16px;
   }
 }
 
@@ -4015,7 +4030,7 @@ hr {
 }
 
 /* line 109, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-.service-area .single-cat:hover .cat-cap h5 {
+.service-area .single-cat:hover .cat-cap h5, .service-area .single-cat:hover .cat-cap h4 {
   color: #fff;
 }
 
