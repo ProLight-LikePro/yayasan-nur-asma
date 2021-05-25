@@ -727,6 +727,7 @@ hr {
   line-height: 48px;
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+  z-index: 10;
 }
 
 @media (max-width: 575px) {
@@ -3675,7 +3676,15 @@ hr {
 
 /* line 127, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area2 .hero-cap h2 {
-  color: #072366;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.slider-area2 .hero-cap .cooming-soon {
+  color: #000;
   font-size: 50px;
   font-weight: 800;
   text-transform: capitalize;
